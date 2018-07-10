@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{padding:  0;margin:  0;
+font-family: 'Open Sans', sans-serif;
+font-size:  16px;color: #232323;}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%
+}
+header{
+    padding: 60px;
+}
+.container{
+    width:  1100px;
+    margin:  0 auto;
+    overflow:hidden;
+}
+.logo{
+    width:  20%;
+    float:  left;
+}
+.logo img{}
+
+nav{
+    width:  80%;
+    float:  left;
+}
+nav ul{}
+nav ul li{
+    list-style:  none;
+    display:  inline-block;
+}
+nav ul li a{
+    text-decoration:  none;
+    color:  gray;
+    font-size:  20px;
+    padding:  35px;
+}
+
+section{
+    width:  100%;
+}
+.article{
+    color: #685959;
+}
+.container-box{
+    width: 900px;
+    margin:  0 auto;
+    padding:  30px;
+}
+
+span{color: #dcdddc;text-decoration:  none;text-transform: uppercase;}
+
+article{
+    padding: 30px 0;
+}
+article h1{}
+article p{
+    color: #96999f;
+}
+
+.gallery-box{
+    padding-top: 80px;
+    overflow:  hidden;
+}
+.gallery{
+    width:  50%;
+    float:  left;
+    padding: 30px 30px 30px 0;
+}
+.gallery img{
+    padding: 0 0 16px;
+}
+
+
+.container h1{
+    text-align:  center;
+}
+.container ul{
+    margin:  0;
+    text-align: right;
+    /* display: inline; */
+}
+footer{
+    background: #80808021;
+}
+.footer-menu{
+    float:  left;
+}
+.footer-menu ul{
+    padding: 30px;
+    margin:  0;
+}
+.footer-menu ul li{
+    display:  inline-block;
+    padding: 8px;
+}
+.footer-menu ul li a{
+    text-decoration:  none;
+    color: #4e4949;
+}
+
+.social-menu{
+    float:  right;
+}
+.social-menu ul{
+    text-align:  center;
+    padding: 30px 0 0 0;
+}
+.social-menu ul li{
+    display:  inline-block;
+    padding: 3px;
+}
+.social-menu ul li a{
+    color: #9E9E9E;
+}
+
+.b-box{
+    background:  #80808021;
+    padding: 60px;
+}
+.b-box ul{
+    text-align:  center;
+}
+.b-box ul i{
+    color:  gray;
+}
+.b-box  h1{
+    color: #0000008c;
+}
+input{
+    width: 34%;
+    border:  none;
+    border-bottom: 1.5px solid;
+    border-color:  gray;
+    padding: 0 0 8px;
+    background: #efefef;
+}
+
+
+.container-box a{
+    text-decoration:  none;
+    color: #b0b2b7;
+}
+
+.button{
+    text-align:  center;
+    padding: 0 0 100px 0;
+}
+.button a{
+    text-align:  center;
+}
+button{width: 12%;padding: 19px;background:  white;border:  solid;border-color:  gray;}\
